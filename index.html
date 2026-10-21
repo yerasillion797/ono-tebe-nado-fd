@@ -1,10 +1,137 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оно тебе надо</title>
+    <link rel="stylesheet" href="./globals.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="menu">
+          <li><a class="active" href="#top">Главная</a></li>
+          <li><a href="#lots">Посмотреть лоты</a></li>
+          <li><a href="#about">Об аукционе</a></li>
+        </ul>
+      </nav>
+
+      <a class="logo" href="#top" aria-label="На главную">
+        <img src="./images/logo-black.svg" alt="Оно тебе надо">
+      </a>
+
+      <address class="contacts">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@ono-tebe-nado.ru">info@ono-tebe-nado.ru</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
+    </header>
+
+    <main id="top">
+      <section class="banner">
+        <h1 class="banner-title">
+          <span class="word-one">ОНО</span>
+          <span class="word-two">ТЕБЕ</span>
+          <span class="word-three">НАДО</span>
+        </h1>
+
+        <div class="banner-bottom">
+          <p>Аукцион вещей, в которые никто не верил</p>
+          <a class="button" href="#lots">Сделать ставку</a>
+        </div>
+      </section>
+
+      <section class="lots" id="lots">
+        <h2>Лоты</h2>
+
+        <div class="cards">
+          <article class="card film">
+            <h3>Фильм режиссёра, который бросил киношколу</h3>
+            <p>
+              Не просто бросил, а ушёл с первой лекции.
+              Какой была бы ваша жизнь, если бы вы не боялись
+              заглядывать в будущее?
+            </p>
+          </article>
+
+          <article class="card book">
+            <h3>Книга, где описан один скучный день</h3>
+            <p>
+              Объёмом почти в тысячу страниц. Иногда кажется,
+              что это бесконечная история, но именно в ней
+              можно найти что-то неожиданное.
+            </p>
+          </article>
+
+          <article class="card picture">
+            <h3>Картина, которую сможет повторить даже пятилетний</h3>
+            <p>
+              Настоящее произведение искусства или случайный
+              набор линий? Решать вам. Главное — посмотреть
+              на привычные вещи под другим углом.
+            </p>
+          </article>
+        </div>
+
+        <a class="more" href="#about">Посмотреть больше</a>
+      </section>
+
+      <section class="about" id="about">
+        <div class="circle">
+          <img
+            class="white-logo"
+            src="./images/logo-white.svg"
+            alt="Логотип Оно тебе надо"
+          >
+        </div>
+
+        <div class="about-content">
+          <h2>Об аукционе</h2>
+
+          <p>
+            Здесь вы не найдёте привычных вещей, которые
+            и без того окружают нас каждый день. Только
+            необычные предметы, в которые когда-то никто
+            не верил.
+          </p>
+
+          <p>
+            Иногда то, что кажется странным или ненужным,
+            становится настоящей ценностью. Мы предлагаем
+            взглянуть на такие вещи по-новому и решить,
+            заслуживают ли они вашего внимания.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <address class="contacts">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@ono-tebe-nado.ru">info@ono-tebe-nado.ru</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
+
+      <nav>
+        <ul class="footer-menu">
+          <li><a href="#top">Главная</a></li>
+          <li><a href="#lots">Посмотреть лоты</a></li>
+          <li><a href="#about">Об аукционе</a></li>
+        </ul>
+      </nav>
+
+      <div class="socials">
+        <a href="https://www.youtube.com/" aria-label="YouTube">
+          <img src="./images/yt.svg" alt="">
+        </a>
+        <a href="https://vk.com/" aria-label="ВКонтакте">
+          <img src="./images/vk.svg" alt="">
+        </a>
+        <a href="https://pinterest.com/" aria-label="Pinterest">
+          <img src="./images/pinterest.svg" alt="">
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
