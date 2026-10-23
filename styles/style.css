@@ -54,7 +54,6 @@
 }
 
 /* Баннер */
-
 .banner {
   min-height: 750px;
   padding: 165px 50px 50px;
@@ -80,17 +79,17 @@
   letter-spacing: 30px;
 }
 
-.word-one {
+.word-ono {
   text-align: left;
 }
 
-.word-two {
+.word-tebe {
   margin-top: 20px;
   padding-left: 30px;
   text-align: center;
 }
 
-.word-three {
+.word-nado {
   margin-top: 20px;
   margin-right: -30px;
   text-align: right;
@@ -106,8 +105,9 @@
 
 .banner-bottom p {
   font-size: 22px;
-  line-height: 1.4;
-  word-spacing: 12px;
+  line-height: 28px;
+  letter-spasing: 2px;
+  word-spacing: normaal; 
   text-transform: uppercase;
 }
 
@@ -122,7 +122,6 @@
 }
 
 /* Лоты */
-
 .lots {
   margin-top: 180px;
   padding: 0 24px;
@@ -136,6 +135,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .card {
@@ -197,7 +199,6 @@
 }
 
 /* Об аукционе */
-
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -238,7 +239,6 @@
 }
 
 /* Подвал */
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -258,7 +258,9 @@
 
 .socials {
   display: flex;
-  gap: 40px;
+  gap: 24px; 
+  width: 240px;
+  jastify-content: space-between;
 }
 
 .socials a {
@@ -266,20 +268,19 @@
   justify-content: center;
   align-items: center;
   width: 48px;
-  height: 48px;
   border: 1px solid black;
   border-radius: 50%;
+  
 }
 
 .socials img {
   display: block;
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: auto;
   object-fit: contain;
 }
 
 /* Планшеты */
-
 @media (max-width: 1000px) {
   .header {
     padding: 50px 25px;
@@ -344,7 +345,6 @@
 }
 
 /* Телефоны */
-
 @media (max-width: 700px) {
   .header {
     grid-template-columns: 1fr 1fr;
@@ -388,11 +388,11 @@
     letter-spacing: 15px;
   }
 
-  .word-two {
+  .word-tebe {
     padding-left: 15px;
   }
 
-  .word-three {
+  .word-nado {
     margin-right: -15px;
   }
 
@@ -480,4 +480,3 @@
     gap: 25px;
   }
 }
-/* место для вашего кода */
