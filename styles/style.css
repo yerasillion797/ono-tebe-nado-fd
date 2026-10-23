@@ -106,8 +106,8 @@
 .banner-bottom p {
   font-size: 22px;
   line-height: 28px;
-  letter-spasing: 2px;
-  word-spacing: normaal; 
+  word-spacing: 12px;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -258,9 +258,8 @@
 
 .socials {
   display: flex;
-  gap: 24px; 
+  gap: 48px;
   width: 240px;
-  jastify-content: space-between;
 }
 
 .socials a {
@@ -268,14 +267,16 @@
   justify-content: center;
   align-items: center;
   width: 48px;
+  height: 48px;
   border: 1px solid black;
   border-radius: 50%;
-  
 }
 
 .socials img {
   display: block;
-  width: 24px;
+  max-width: 26px;
+  max-height: 22px;
+  width: auto;
   height: auto;
   object-fit: contain;
 }
@@ -306,7 +307,7 @@
 
   .banner-bottom p {
     font-size: 18px;
-    word-spacing: 4px;
+    word-spacing: 8px;
   }
 
   .button {
@@ -340,7 +341,8 @@
   }
 
   .socials {
-    gap: 15px;
+    gap: 24px;
+    width: auto;
   }
 }
 
@@ -404,6 +406,7 @@
 
   .banner-bottom p {
     font-size: 16px;
+    word-spacing: 6px;
   }
 
   .lots {
@@ -477,6 +480,7 @@
   }
 
   .socials {
-    gap: 25px;
+    gap: 24px;
+    width: auto;
   }
 }
