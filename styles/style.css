@@ -91,7 +91,6 @@
 
 .header__title--last {
   margin-top: 20px;
-  margin-right: -30px;
   text-align: right;
 }
 
@@ -389,11 +388,11 @@
     letter-spacing: 15px;
   }
 
-  .word-tebe {
+  .header__title--second {
     padding-left: 15px;
   }
 
-  .word-nado {
+  .header__title--last {
     margin-right: -15px;
   }
 
