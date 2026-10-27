@@ -83,13 +83,13 @@
   text-align: left;
 }
 
-.word-tebe {
+.header__title--second {
   margin-top: 20px;
   padding-left: 30px;
   text-align: center;
 }
 
-.word-nado {
+.header__title--last {
   margin-top: 20px;
   margin-right: -30px;
   text-align: right;
