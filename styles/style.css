@@ -106,7 +106,7 @@
 .banner-bottom p {
   font-size: 22px;
   line-height: 28px;
-  word-spacing: 12px;
+  word-spacing: 18px;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -275,7 +275,7 @@
 
 .socials img {
   display: block;
-  width: 24px;
+  width: 48px;
   height: auto;
   object-fit: contain;
 }
