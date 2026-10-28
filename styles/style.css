@@ -94,7 +94,7 @@
 .header__title-right {
 margin-top: 20px; 
 text-align: left;
-margin-left: 610px; 
+margin-left: 610px !important; 
 }
 
 .banner-bottom {
