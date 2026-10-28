@@ -75,9 +75,8 @@
 }
 
 .banner-title span {
-  display: block;
-  letter-spacing: 30px;
-  margin-left: -30px;
+  display: block; 
+  letter-spacing: 30px; 
 }
 
 .header__title-left {
@@ -85,8 +84,8 @@
 }
 
 .header__title-center {
-  margin-top: 20px;
-  padding-left: 30px;
+  margin-top: 20px; 
+  padding-left: 30px; 
   text-align: center;
 }
 
