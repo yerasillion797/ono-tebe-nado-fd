@@ -76,7 +76,7 @@
 
 .banner-title span {
   display: block;
-  letter-spacing: 30px; /* я не понял как это сделать много чего перепробовал*/
+  letter-spacing: 30px;
 }
 
 .header__title-left {
@@ -90,8 +90,9 @@
 }
 
 .header__title-right {
-  margin-top: 20px; /* добавил это значение надпись, "НАДО" передвинулась и начинаеться ровно под последней буквой слова "ТЕБЕ" */
+  margin-top: 20px;
   text-align: right;
+  padding-right: 140px; /* точное положение по макету Figma */
 }
 
 .banner-bottom {
@@ -303,6 +304,10 @@
     font-size: 85px;
   }
 
+  .header__title-right {
+    padding-right: 90px;
+  }
+
   .banner-bottom p {
     font-size: 18px;
     word-spacing: 8px;
@@ -393,8 +398,8 @@
   }
 
   .header__title-right {
-    margin-right: -15px;
-    padding-right: 0;
+    padding-right: 25px; /* ← исправлено: больше не уезжает слишком вправо на мобильном */
+    margin-right: 0;
   }
 
   .banner-bottom {
