@@ -91,7 +91,7 @@
 
 .header__title-right {
   margin-top: 20px;
-  margin-left: 555px;
+  margin-left: 555px; /* добавил это значение надпись, "НАДО" передвинулась и начинаеться ровно под последней буквой слова "ТЕБЕ" */
   text-align: right;
 }
 
