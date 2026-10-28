@@ -91,7 +91,14 @@ top: 165px;
 left: 50px;
 angle: 0 deg;
 opacity: 1;
-
+  font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 100px;
+leading-trim: NONE;
+line-height: 114.99999999999999%;
+letter-spacing: 30%;
+text-transform: uppercase;
 }
 
 .header__title-center {
@@ -101,6 +108,15 @@ top: 300px;
 left: 380.5px;
 angle: 0 deg;
 opacity: 1;
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 100px;
+leading-trim: NONE;
+line-height: 114.99999999999999%;
+letter-spacing: 30%;
+text-align: center;
+text-transform: uppercase;
 
 }
 
@@ -111,6 +127,15 @@ top: 435px;
 left: 663px;
 angle: 0 deg;
 opacity: 1;
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 100px;
+leading-trim: NONE;
+line-height: 114.99999999999999%;
+letter-spacing: 30%;
+text-align: right;
+text-transform: uppercase;
 
 }
 
