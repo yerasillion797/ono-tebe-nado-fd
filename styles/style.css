@@ -90,6 +90,7 @@
 }
 
 .header__title-right {
+  outline: 1px solid red;
   margin-top: 20px;
   padding-right: 0;
   text-align: right;
