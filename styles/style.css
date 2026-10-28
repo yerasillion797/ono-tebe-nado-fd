@@ -77,7 +77,6 @@
 .banner-title span {
   display: block;
   letter-spacing: 30px;
-  margin-left: 555px; 
 }
 
 .header__title-left {
@@ -93,6 +92,7 @@
 .header__title-right {
   margin-top: 20px;
   text-align: right;
+  margin-left: 555px;
 }
 
 .banner-bottom {
