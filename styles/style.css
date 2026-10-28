@@ -75,67 +75,25 @@
 }
 
 .banner-title span {
-  width: 1000;
-height: 385;
-top: 165px;
-left: 50px;
-angle: 0 deg;
-opacity: 1;
+  display: block; 
+  letter-spacing: 30px;
 
 }
 
 .header__title-left {
-  width: 286;
-height: 115;
-top: 165px;
-left: 50px;
-angle: 0 deg;
-opacity: 1;
-  font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 100px;
-leading-trim: NONE;
-line-height: 114.99999999999999%;
-letter-spacing: 30%;
-text-transform: uppercase;
+ text-align: left; 
 }
 
 .header__title-center {
- width: 339;
-height: 115;
-top: 300px;
-left: 380.5px;
-angle: 0 deg;
-opacity: 1;
-font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 100px;
-leading-trim: NONE;
-line-height: 114.99999999999999%;
-letter-spacing: 30%;
-text-align: center;
-text-transform: uppercase;
+  margin-top: 20px; 
+  padding-left: 30px; 
+  text-align: center;
 
 }
 
 .header__title-right {
- width: 387;
-height: 115;
-top: 435px;
-left: 663px;
-angle: 0 deg;
-opacity: 1;
-font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 100px;
-leading-trim: NONE;
-line-height: 114.99999999999999%;
-letter-spacing: 30%;
-text-align: right;
-text-transform: uppercase;
+  margin-top: 20px; 
+  text-align: right;
 
 }
 
