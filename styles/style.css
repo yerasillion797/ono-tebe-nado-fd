@@ -69,17 +69,16 @@
   background-size: cover;
 }
 
-
 .banner-title {
   display: flex;
   flex-direction: column;
   font-size: 100px;
   line-height: 1.15;
+  text-transform: uppercase;
 }
 
 .banner-title span {
-  letter-spacing: 30px;
-  text-transform: uppercase;
+  letter-spacing: 30px;  
 }
 
 .header__title-left {
