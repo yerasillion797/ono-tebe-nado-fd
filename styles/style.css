@@ -75,8 +75,10 @@
 }
 
 .banner-title span {
-  display: block;
+  display: flex;
+  flex-direction: column;
   letter-spacing: 30px;
+  
 }
 
 .header__title-left {
