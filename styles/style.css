@@ -76,7 +76,7 @@
 
 .banner-title span {
   display: block;
-  letter-spacing: 30px;
+  letter-spacing: 30px; /* я не понял как это сделать много чего перепробовал*/
 }
 
 .header__title-left {
