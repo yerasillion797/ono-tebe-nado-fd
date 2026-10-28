@@ -92,9 +92,8 @@
 }
 
 .header__title-right {
-  margin-top: 20px; 
-  text-align: right;
-
+margin-top: 20px; 
+text-align: left;
 }
 
 .banner-bottom {
