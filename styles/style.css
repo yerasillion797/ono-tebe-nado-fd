@@ -1,4 +1,3 @@
-```css
 .header {
   display: grid;
   grid-template-columns: 1fr 140px 1fr;
@@ -484,4 +483,4 @@
     width: auto;
   }
 }
-```
+
