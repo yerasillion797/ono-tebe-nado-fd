@@ -93,8 +93,12 @@
 }
 
 .header__title-right {
-  margin-top: 20px;
-  text-align: right;
+  width: 387;
+  height: 115;
+  top: 435px;
+  left: 663px;
+  angle: 0 deg;
+  opacity: 1;
 }
 
 .banner-bottom {
