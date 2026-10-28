@@ -1,484 +1,486 @@
-.header { 
-  display: grid; 
-  grid-template-columns: 1fr 140px 1fr; 
-  align-items: center; 
-  gap: 25px; 
-  padding: 90px 50px 100px; 
-} 
- 
-.menu { 
-  display: flex; 
-  flex-wrap: wrap; 
-  gap: 10px 25px; 
-  margin: 0; 
-  padding: 0; 
-  font-size: 18px; 
-  list-style-type: circle; 
-} 
- 
-.menu li:first-child { 
-  list-style: none; 
-} 
- 
-.active { 
-  text-decoration: none; 
-} 
- 
-.logo { 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  width: 130px; 
-  justify-self: center; 
-} 
- 
-.logo img { 
-  display: block; 
-  width: 100%; 
-  height: auto; 
-} 
- 
-.contacts { 
-  width: 240px; 
-  font-size: 18px; 
-  font-style: normal; 
-  line-height: 1.35; 
-} 
- 
-.contacts a { 
-  display: block; 
-} 
- 
-.header .contacts { 
-  justify-self: end; 
-} 
- 
-/* Баннер */ 
-.banner { 
-  min-height: 750px; 
-  padding: 165px 50px 50px; 
-  color: white; 
-  background-color: #263538; 
-  background-image: 
-    linear-gradient( 
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6) 
-    ), 
-    url("../images/cover.jpg"); 
-  background-position: center; 
-  background-size: cover; 
-} 
- 
-.banner-title { 
-  font-size: 100px; 
-  line-height: 1.15; 
-} 
- 
-.banner-title span { 
-  display: block; 
-  letter-spacing: 30px; 
-} 
- 
-.header__title-left { 
-  text-align: left; 
-} 
- 
-.header__title-center { 
-  margin-top: 20px; 
-  padding-left: 30px; 
-  text-align: center; 
-} 
- 
-.header__title-right { 
-  margin-top: 20px; 
-  text-align: right; 
-} 
- 
-.banner-bottom { 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  gap: 25px; 
-  margin-top: 110px; 
-} 
- 
-.banner-bottom p { 
-  font-size: 22px; 
-  line-height: 28px; 
-  word-spacing: 18px; 
-  letter-spacing: 0; 
-  text-transform: uppercase; 
-} 
- 
-.button { 
-  flex-shrink: 0; 
-  padding: 12px 30px; 
-  border: 1px solid white; 
-  font-size: 22px; 
-  text-align: center; 
-  text-decoration: none; 
-  text-transform: uppercase; 
-} 
- 
-/* Лоты */ 
-.lots { 
-  margin-top: 180px; 
-  padding: 0 24px; 
-} 
- 
-.lots h2 { 
-  margin: 0 0 28px 40px; 
-} 
- 
-.cards { 
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 25px; 
-  margin: 0; 
-  padding: 0; 
-  list-style: none; 
-} 
- 
-.card { 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: space-between; 
-  gap: 35px; 
-  min-height: 596px; 
-  padding: 48px 40px; 
-  color: white; 
-  background-color: #354039; 
-  background-position: center; 
-  background-size: cover; 
-} 
- 
-.film { 
-  background-image: 
-    linear-gradient( 
-      rgba(0, 0, 0, 0.55), 
-      rgba(0, 0, 0, 0.55) 
-    ), 
-    url("../images/card-lot-01.jpg"); 
-} 
- 
-.book { 
-  background-image: 
-    linear-gradient( 
-      rgba(0, 0, 0, 0.55), 
-      rgba(0, 0, 0, 0.55) 
-    ), 
-    url("../images/card-lot-02.jpg"); 
-} 
- 
-.picture { 
-  background-image: 
-    linear-gradient( 
-      rgba(0, 0, 0, 0.55), 
-      rgba(0, 0, 0, 0.55) 
-    ), 
-    url("../images/card-lot-03.jpg"); 
-} 
- 
-.card h3 { 
-  font-size: 22px; 
-  line-height: 1.15; 
-  text-decoration: underline; 
-  text-transform: uppercase; 
-} 
- 
-.card p { 
-  font-size: 20px; 
-  line-height: 1.2; 
-} 
- 
-.more { 
-  display: inline-block; 
-  margin: 30px 0 0 40px; 
-  font-size: 20px; 
-} 
- 
-/* Об аукционе */ 
-.about { 
-  display: grid; 
-  grid-template-columns: 334px 1fr; 
-  gap: 25px; 
-  margin-top: 150px; 
-  padding: 0 24px; 
-} 
- 
-.circle { 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  justify-self: center; 
-  width: 240px; 
-  height: 240px; 
-  border-radius: 50%; 
-  background-color: black; 
-} 
- 
-.white-logo { 
-  display: block; 
-  width: 150px; 
-  height: auto; 
-} 
- 
-.about h2 { 
-  margin: 100px 0; 
-} 
- 
-.about p { 
-  margin-bottom: 25px; 
-  font-size: 20px; 
-  line-height: 1.25; 
-} 
- 
-.about p:last-child { 
-  margin-bottom: 0; 
-} 
- 
-/* Подвал */ 
-.footer { 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: flex-start; 
-  gap: 30px; 
-  padding: 180px 50px 85px; 
-} 
- 
-.footer-menu { 
-  margin: 0; 
-  padding: 0; 
-  list-style: none; 
-  text-align: center; 
-  font-size: 18px; 
-  line-height: 1.3; 
-} 
- 
-.socials { 
-  display: flex; 
-  gap: 48px; 
-} 
- 
-.socials a { 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  width: 48px; 
-  height: 48px;           
-  flex-shrink: 0;        
-  border: 1px solid black; 
-  border-radius: 50%; 
-  box-sizing: border-box; 
-} 
- 
-.socials img { 
-  display: block; 
-  width: 48px; 
-  height: auto; 
-  object-fit: contain; 
-} 
- 
-/* Планшеты */ 
-@media (max-width: 1000px) { 
-  .header { 
-    padding: 50px 25px; 
-  } 
- 
-  .menu { 
-    font-size: 16px; 
-  } 
- 
-  .contacts { 
-    width: 200px; 
-    font-size: 16px; 
-  } 
- 
-  .banner { 
-    min-height: 650px; 
-    padding: 100px 30px 40px; 
-  } 
- 
-  .banner-title { 
-    font-size: 85px; 
-  } 
- 
-  .banner-bottom p { 
-    font-size: 18px; 
-    word-spacing: 8px; 
-  } 
- 
-  .button { 
-    padding: 12px 20px; 
-    font-size: 18px; 
-  } 
- 
-  .card { 
-    padding: 30px 20px; 
-  } 
- 
-  .card h3 { 
-    font-size: 20px; 
-  } 
- 
-  .card p { 
-    font-size: 18px; 
-  } 
- 
-  .about { 
-    grid-template-columns: 260px 1fr; 
-    gap: 20px; 
-  } 
- 
-  .about h2 { 
-    font-size: 32px; 
-  } 
- 
-  .footer { 
-    padding: 120px 25px 60px; 
-  } 
- 
-  .socials { 
-    gap: 24px; 
-    width: auto; 
-  } 
-} 
- 
-/* Телефоны */ 
-@media (max-width: 700px) { 
-  .header { 
-    grid-template-columns: 1fr 1fr; 
-    gap: 30px 15px; 
-    padding: 30px 20px; 
-  } 
- 
-  .header nav { 
-    grid-column: 1 / 3; 
-    grid-row: 2; 
-  } 
- 
-  .header > .logo { 
-    grid-column: 1; 
-    grid-row: 1; 
-    justify-self: start; 
-  } 
- 
-  .header .contacts { 
-    grid-column: 2; 
-    grid-row: 1; 
-    width: 100%; 
-  } 
- 
-  .menu { 
-    justify-content: center; 
-    gap: 10px 22px; 
-    font-size: 14px; 
-  } 
- 
-  .banner { 
-    min-height: 520px; 
-    padding: 75px 20px 30px; 
-  } 
- 
-  .banner-title { 
-    font-size: 52px; 
-  } 
- 
-  .banner-title span { 
-    letter-spacing: 15px; 
-  } 
- 
-  .header__title--second { 
-    padding-left: 15px; 
-  } 
- 
-  .header__title--last { 
-    margin-right: -15px; 
-  } 
- 
-  .banner-bottom { 
-    flex-direction: column; 
-    align-items: flex-start; 
-    margin-top: 70px; 
-  } 
- 
-  .banner-bottom p { 
-    font-size: 16px; 
-    word-spacing: 6px; 
-  } 
- 
-  .lots { 
-    margin-top: 70px; 
-    padding: 0 20px; 
-  } 
- 
-  h2 { 
-    font-size: 32px; 
-  } 
- 
-  .lots h2 { 
-    margin-left: 0; 
-  } 
- 
-  .cards { 
-    grid-template-columns: 1fr; 
-  } 
- 
-  .card { 
-    min-height: 520px; 
-    padding: 35px 30px; 
-  } 
- 
-  .card h3 { 
-    font-size: 22px; 
-  } 
- 
-  .card p { 
-    font-size: 20px; 
-  } 
- 
-  .more { 
-    margin-left: 0; 
-  } 
- 
-  .about { 
-    grid-template-columns: 1fr; 
-    gap: 35px; 
-    margin-top: 80px; 
-    padding: 0 20px; 
-  } 
- 
-  .circle { 
-    justify-self: start; 
-    width: 200px; 
-    height: 200px; 
-  } 
- 
-  .white-logo { 
-    width: 130px; 
-  } 
- 
-  .about h2 { 
-    margin: 0 0 35px; 
-  } 
- 
-  .about p { 
-    font-size: 18px; 
-    line-height: 1.4; 
-  } 
- 
-  .footer { 
-    flex-direction: column; 
-    gap: 35px; 
-    padding: 80px 20px 40px; 
-  } 
- 
-  .footer-menu { 
-    text-align: left; 
-  } 
- 
-  .socials { 
-    gap: 24px; 
-    width: auto; 
-  } 
-} 
+.header {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr;
+  align-items: center;
+  gap: 25px;
+  padding: 90px 50px 100px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  list-style-type: circle;
+}
+
+.menu li:first-child {
+  list-style: none;
+}
+
+.active {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  justify-self: center;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contacts {
+  width: 240px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.contacts a {
+  display: block;
+}
+
+.header .contacts {
+  justify-self: end;
+}
+
+/* Баннер */
+.banner {
+  min-height: 750px;
+  padding: 165px 50px 50px;
+  color: white;
+  background-color: #263538;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/cover.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-title {
+  font-size: 100px;
+  line-height: 1.15;
+}
+
+.banner-title span {
+  display: block;
+  letter-spacing: 30px;
+}
+
+.header__title-left {
+  text-align: left;
+}
+
+.header__title-center {
+  margin-top: 20px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.header__title-right {
+  margin-top: 20px;
+  text-align: right;
+  padding-right: 80px; /* ← исправление: сдвигает «НАДО» влево, чтобы начиналось под «Е» */
+}
+
+.banner-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-top: 110px;
+}
+
+.banner-bottom p {
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 18px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.button {
+  flex-shrink: 0;
+  padding: 12px 30px;
+  border: 1px solid white;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Лоты */
+.lots {
+  margin-top: 180px;
+  padding: 0 24px;
+}
+
+.lots h2 {
+  margin: 0 0 28px 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 35px;
+  min-height: 596px;
+  padding: 48px 40px;
+  color: white;
+  background-color: #354039;
+  background-position: center;
+  background-size: cover;
+}
+
+.film {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("../images/card-lot-01.jpg");
+}
+
+.book {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("../images/card-lot-02.jpg");
+}
+
+.picture {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("../images/card-lot-03.jpg");
+}
+
+.card h3 {
+  font-size: 22px;
+  line-height: 1.15;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.more {
+  display: inline-block;
+  margin: 30px 0 0 40px;
+  font-size: 20px;
+}
+
+/* Об аукционе */
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
+  margin-top: 150px;
+  padding: 0 24px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.white-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+.about h2 {
+  margin: 100px 0;
+}
+
+.about p {
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.about p:last-child {
+  margin-bottom: 0;
+}
+
+/* Подвал */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 180px 50px 85px;
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.socials {
+  display: flex;
+  gap: 48px;
+}
+
+.socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.socials img {
+  display: block;
+  width: 48px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Планшеты */
+@media (max-width: 1000px) {
+  .header {
+    padding: 50px 25px;
+  }
+
+  .menu {
+    font-size: 16px;
+  }
+
+  .contacts {
+    width: 200px;
+    font-size: 16px;
+  }
+
+  .banner {
+    min-height: 650px;
+    padding: 100px 30px 40px;
+  }
+
+  .banner-title {
+    font-size: 85px;
+  }
+
+  .banner-bottom p {
+    font-size: 18px;
+    word-spacing: 8px;
+  }
+
+  .button {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 30px 20px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  .about {
+    grid-template-columns: 260px 1fr;
+    gap: 20px;
+  }
+
+  .about h2 {
+    font-size: 32px;
+  }
+
+  .footer {
+    padding: 120px 25px 60px;
+  }
+
+  .socials {
+    gap: 24px;
+    width: auto;
+  }
+}
+
+/* Телефоны */
+@media (max-width: 700px) {
+  .header {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 15px;
+    padding: 30px 20px;
+  }
+
+  .header nav {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+
+  .header > .logo {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .header .contacts {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+  }
+
+  .menu {
+    justify-content: center;
+    gap: 10px 22px;
+    font-size: 14px;
+  }
+
+  .banner {
+    min-height: 520px;
+    padding: 75px 20px 30px;
+  }
+
+  .banner-title {
+    font-size: 52px;
+  }
+
+  .banner-title span {
+    letter-spacing: 15px;
+  }
+
+  .header__title-center {
+    padding-left: 15px;
+  }
+
+  .header__title-right {
+    margin-right: -15px;
+    padding-right: 0;
+  }
+
+  .banner-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 70px;
+  }
+
+  .banner-bottom p {
+    font-size: 16px;
+    word-spacing: 6px;
+  }
+
+  .lots {
+    margin-top: 70px;
+    padding: 0 20px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .lots h2 {
+    margin-left: 0;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-height: 520px;
+    padding: 35px 30px;
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .more {
+    margin-left: 0;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin-top: 80px;
+    padding: 0 20px;
+  }
+
+  .circle {
+    justify-self: start;
+    width: 200px;
+    height: 200px;
+  }
+
+  .white-logo {
+    width: 130px;
+  }
+
+  .about h2 {
+    margin: 0 0 35px;
+  }
+
+  .about p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 35px;
+    padding: 80px 20px 40px;
+  }
+
+  .footer-menu {
+    text-align: left;
+  }
+
+  .socials {
+    gap: 24px;
+    width: auto;
+  }
+}
