@@ -75,11 +75,9 @@
 }
 
 .banner-title span {
-  width: 1100;
-  height: 757;
-  angle: 0 deg;
-  opacity: 0.6;
-
+  display: block;
+  letter-spacing: 30px;
+  margin-left: -30px;
 }
 
 .header__title-left {
@@ -93,12 +91,9 @@
 }
 
 .header__title-right {
-  width: 387;
-  height: 115;
-  top: 435px;
-  left: 663px;
-  angle: 0 deg;
-  opacity: 1;
+  display: block; 
+  letter-spacing: 30px;
+  text-align: center;
 }
 
 .banner-bottom {
